@@ -1,0 +1,11 @@
+# Site settings
+title: SRAC18
+email: ti@nranchen.org
+description: "SRAC18 webpage"
+baseurl: ""
+url: "http://srac18.github.io"
+github_username:  chentianran
+
+# Build settings
+markdown: kramdown
+permalink: pretty

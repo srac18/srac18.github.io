@@ -1,0 +1,287 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: STANLEY - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+/*@import url('https://fonts.googleapis.com/css?family=Oswald:700|Ubuntu:300&subset=greek,greek-ext,latin-ext');*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:700|Raleway&subset=latin-ext');
+/* @import url(http://fonts.googleapis.com/css?family=Cardo:400,700|Merriweather+Sans:400,800); */
+/* @import url(http://fonts.googleapis.com/css?family=Cardo); */
+/* @import url(http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);   */
+/* @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700); */
+
+body {
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+h1 {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 26px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+table {
+    margine: 10px;
+}
+
+th, td {
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/*
+ul {
+    padding: 0px;
+    margin: 10px;
+}
+*/
+
+ul li {
+    padding: 2px;
+    font-size: 15px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #AA1111;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #FF3333;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.navbar-inverse {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.navbar-inverse {
+    background-color: #881111;
+    border-color: #444444;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    font-weight: 700;
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #000000;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 28px;
+    /* letter-spacing: 2px; */
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.progress-bar-theme {
+    background-color: #1abc9c;
+}
+
+
+/* Helpers */
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.pt {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+/* +++++ WRAP SECTIONS +++++ */
+
+#ww {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #f2f2f2;
+}
+
+
+#footer {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #2f2f2f;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-weight: 300;
+}
+
+#footer p {
+    color: white;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer h4 {
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+
+/* +++++ Color Wraps / Blog Page +++++ */
+
+#grey {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #f2f2f2;
+}
+
+#white {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #ffffff;
+}
+
+
+
+/* Blog Date*/
+bd {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #d2d2d2;
+	font-weight: 700;
+}
+
+/* Blog Author*/
+ba {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+/* Blog Quote */
+.bq {
+	font-size: 22px;
+	padding-top: 30px;
+}
+
+/* Blog Tags */
+bt {
+	font-size: 12px;
+}
+
+#sketch-holder {
+    /* width: 50%; */
+    margin: 0 auto;
+}
+
+/* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
+/* Effects also are controled by hover.zoom.js */
+.zoom {
+    display:block;
+    position:relative;
+    overflow:hidden;
+    background:transparent url(../img/loader.gif) no-repeat center;
+}
+
+
+    .zoomOverlay {
+        position:absolute;
+        top:0; left:0;
+        bottom:0; right:0;
+        display:none;
+        background-image:url(../img/zoom.png);
+        background-repeat:no-repeat;
+        background-position:center;
+    }
+
+.zoom2 {
+	opacity: 1;
+}
+
+.zoom2:hover {
+	opacity: 0.5;
+}
+
+/* glyphicon Configuration */
+
+.glyphicon {
+	font-size: 40px;
+	color: #1abc9c;
+}
