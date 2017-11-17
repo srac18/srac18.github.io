@@ -12,7 +12,7 @@ Alabama, April 20-22, 2018 (Friday-Sunday).
 
 ### When and where
 * Auburn University at Montgomery (Montgomery, Alabama)
-* April 20--22
+* April 20--22, 2018
 
 ### Organizers
 
@@ -46,21 +46,21 @@ There is _no registration fee_.
         <p>Do you plan to give a talk?</p>
         <label for="talkyes" class="radio-inline"><input type="radio" name="entry.1155425139" id="talkyes" value="Yes"/>Yes</label>
         <label for="talkno"  class="radio-inline"><input type="radio" name="entry.1155425139" id="talkno" value="No"/>No</label>
-        <label for="talkmb"  class="radio-inline"><input type="radio" name="entry.1155425139" id="talkmb" value="Maybe"/>Maybe</label>
+        <!-- <label for="talkmb"  class="radio-inline"><input type="radio" name="entry.1155425139" id="talkmb" value="Maybe"/>Maybe</label> -->
     </div>
 
     <div class="form-group">
-        <p>Do you plan to join our Friday's dinner?</p>
+        <p>Do you plan to attend the Friday barbecue?</p>
         <label for="friyes" class="radio-inline"><input type="radio" name="entry.153670286" id="friyes" value="Yes"/>Yes</label>
         <label for="frino"  class="radio-inline"><input type="radio" name="entry.153670286" id="frino" value="No"/>No</label>
-        <label for="frimb"  class="radio-inline"><input type="radio" name="entry.153670286" id="frimb" value="Maybe"/>Maybe</label>
+        <!-- <label for="frimb"  class="radio-inline"><input type="radio" name="entry.153670286" id="frimb" value="Maybe"/>Maybe</label> -->
     </div>
 
     <div class="form-group">
-        <p>Do you plan to join our Saturday's dinner?</p>
+        <p>Do you plan to attend the Saturday barbecue?</p>
         <label for="satyes" class="radio-inline"><input type="radio" name="entry.1411199947" id="satyes" value="Yes"/>Yes</label>
         <label for="satno"  class="radio-inline"><input type="radio" name="entry.1411199947" id="satno" value="No"/>No</label>
-        <label for="satmb"  class="radio-inline"><input type="radio" name="entry.1411199947" id="satmb" value="Maybe"/>Maybe</label>
+        <!-- <label for="satmb"  class="radio-inline"><input type="radio" name="entry.1411199947" id="satmb" value="Maybe"/>Maybe</label> -->
     </div>
 
     <div class="form-group">
