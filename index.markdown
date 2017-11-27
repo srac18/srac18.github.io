@@ -56,23 +56,29 @@ There is _no registration fee_.
         <!-- <label for="frimb"  class="radio-inline"><input type="radio" name="entry.153670286" id="frimb" value="Maybe"/>Maybe</label> -->
     </div>
 
-    <div class="form-group">
+    <div class="form-group col-xs-offset-1">
         <p>If yes, will you include a guest?</p>
-        <label for="friguestyes" class="radio-inline"><input type="radio" name="entry.15300000" id="friguestyes" value="Yes"/>Yes</label>
-        <label for="friguestno"  class="radio-inline"><input type="radio" name="entry.153000000" id="friguestno" value="No"/>No</label>
+        <label for="friguestyes" class="radio-inline"><input type="radio" name="entry.1447553040" id="friguestyes" value="Yes"/>Yes</label>
+        <label for="friguestno"  class="radio-inline"><input type="radio" name="entry.1447553040" id="friguestno" value="No"/>No</label>
     </div>
 
     <div class="form-group">
-        <p>Do you plan to attend the Saturday barbecue?</p>
+        <p>Do you plan to attend the Saturday dinner?</p>
         <label for="satyes" class="radio-inline"><input type="radio" name="entry.1411199947" id="satyes" value="Yes"/>Yes</label>
         <label for="satno"  class="radio-inline"><input type="radio" name="entry.1411199947" id="satno" value="No"/>No</label>
         <!-- <label for="satmb"  class="radio-inline"><input type="radio" name="entry.1411199947" id="satmb" value="Maybe"/>Maybe</label> -->
     </div>
 
-    <div class="form-group">
+    <div class="form-group col-xs-offset-1">
         <p>If yes, will you include a guest?</p>
-        <label for="satguestyes" class="radio-inline"><input type="radio" name="entry.15300000" id="satguestyes" value="Yes"/>Yes</label>
-        <label for="satguestno"  class="radio-inline"><input type="radio" name="entry.153000000" id="satguestno" value="No"/>No</label>
+        <label for="satguestyes" class="radio-inline">
+        <input type="radio" name="entry.1066820127" id="satguestyes" value="Yes"/>
+        Yes
+        </label>
+        <label for="satguestno"  class="radio-inline">
+        <input type="radio" name="entry.1066820127" id="satguestno" value="No"/>
+        No
+        </label>
     </div>
 
 
